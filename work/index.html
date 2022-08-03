@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оренда.com</title>
+    <link rel="shortcut icon" href="img/RentIco.png">
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="TopMenu"></div>
+    <div class="WorkSpace">
+
+        <div class="InfoSpace">
+
+
+            <!-- <div class="BDPlate" id="">
+                <h6> </h6>
+                <h1 class="BDPinfolineName">Build Adress</h1>
+                <div class="BDPinfoline"></div>
+                <h1 class="BDPinfolineName">Build type</h1>
+                <div class="BDPinfoline"></div>
+                <h1 class="BDPinfolineName">Build Information</h1>
+                <div class="BDPinfoline"></div>
+                <h1 class="BDPinfolineName">Owner Information</h1>
+                <div class="BDPinfoline"></div>
+                <h1 class="BDPinfolineName">Rent Data</h1>
+                <div class="BDPinfoline"></div>
+                <h1 class="BDPinfolineName">Rent End Data</h1>
+                <div class="BDPinfoline"></div>
+                <h1 class="BDPinfolineName">Rule</h1>
+                <div class="BDPinfoline"></div>
+                <h1 class="BDPinfolineName">Coust</h1>
+                <div class="BDPinfoline"></div>
+            </div> -->
+        </div>
+        <!-- ////////////////////////////////////////////////////////////////// -->
+        <div class="SearchMenu">
+            <div class="SearchController">
+                <div class="ShearchImg"></div>
+                <div class="SearchName">
+
+                    <h1>Search</h1>
+                    <hr class="SearchLine">
+                    <input class="SearchText" type="text">
+                    <hr class="SearchLine">
+                </div>
+                <div class="SearchFilter">
+
+                    <h1 class="SearchName">Search by Type</h1>
+                    <!-- <select class="SearchList" name="SearchType" id="">
+                        <option value="none" select>ChooseType...</option>
+                        <option value="Above ground space">Above ground space</option>
+                        <option value="Basement space">Basement space</option>
+                        <option value="Semi-basement space">Semi-basement space</option>
+                    </select> -->
+
+                    <hr class="SearchLine">
+                    <div class="FilterText2">
+                        <input class="CheckBox3" type="checkbox">
+                        <div class="CheckBoxText">The next 2 weeks</div>
+                    </div>
+                    <hr class="SearchLine">
+                    <div class="FilterText2">
+                        <input class="CheckBox2" type="checkbox" id="SummerCHB" onclick="summer()">
+                        <div class="CheckBoxText">Summer Time</div>
+                    </div>
+                    <hr class="SearchLine">
+                    <div class="SCoust">
+                        <h1 class="SummerCoust" id="SummerText">+20% To final Coust in summer Time </h1>
+                        <h1 class="SummerCoust2" id="SummerText">(Summer Price Active) </h1>
+
+                    </div>
+                    <hr class="SearchLine">
+
+                    <!-- <h1 class="SearchName">Search by filter</h1>
+                    <select class="SearchList" name="SearchFilter" id="">
+                        <option value="none" select>Choose Filter...</option>
+                        <option value="Search for Date">Search for Date</option>
+                        <option value="Search for A-z">Search for A-z</option>
+                        <option value="Search for Z-a">Search for Z-a</option>
+                    </select> -->
+
+                </div>
+                <div class="ButtonDIV">
+                    <button class="ButtonAdd">Add+</button>
+                    <button class="ButtonDel">DELETE</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- ////////////////////////////////////////////////////////////////// -->
+        <div class="PasswordFon">
+            <div class="PasswordMenu">
+                <div class="PasswordMenuText">
+                    <P></P> Admin Password
+                </div>
+                <div class="InputPass">
+                    <input class="PassText" type="password">
+                </div>
+                <hr class="SearchLine">
+                <div class="InputButton">
+                    <button class="PassBIN">Go in</button>
+                    <button class="PassBClose">Close</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////////////////////////// -->
+        <div class="BuildAddFon">
+            <div class="BuildAddMenu">
+                <div class="BAdress">
+                    <h1 class="BuildAddMenuText">Build Adress</h1>
+
+                    <input class="BuildAddAdressInput" type="text">
+                </div>
+
+                <div class="BType">
+                    <h1 class="BuildAddMenuText">Build type</h1>
+
+                    <select class="BuildAddTypeList" name="SearchType" id="">
+                    <option value="none" select>ChooseType...</option>
+                    <option value="Build Above ground space">Above ground space</option>
+                    <option value="Build Basement space">Basement space</option>
+                    <option value="Build Semi-basement space">Semi-basement space</option>
+                </select>
+                </div>
+
+                <div class="BInfo">
+                    <h1 class="BuildAddMenuText">Build Information </h1>
+                    <input class="BInfoInput" type="text">
+
+                </div>
+
+                <div class="OwnInfo">
+                    <h1 class="BuildAddMenuText">Owner Information</h1>
+                    <input class="OnwInfoInput" type="text">
+                </div>
+
+                <div class="BDate">
+                    <h1 class="BuildAddMenuText">Rent Data</h1>
+                    <input class="BDateInput" type="date">
+
+                </div>
+
+                <div class="BRentEndData">
+                    <h1 class="BuildAddMenuText">Rent End Data</h1>
+                    <input class="RentEndDataInput" type="date">
+
+                </div>
+
+                <div class="BRule">
+                    <h1 class="BuildAddMenuText">Rule</h1>
+                    <input class="RuleInput" type="text">
+
+                </div>
+
+                <div class="BCoust">
+                    <h1 class="BuildAddMenuText">Coust</h1>
+                    <input class="CoustInput" type="number">
+
+                </div>
+
+                <div class="BAddButton">
+                    <button class="ApplyAddB">Apply</button>
+                    <button class="CanselAddB">Cansel</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////////////////////////// -->
+        <div class="DeleteFon">
+            <div class="DeleteMenu">
+                <h1 class="DeleteName">Choose Type to Delete</h1>
+                <hr class="SearchLine">
+                <select class="DeleteTypeList" name="DeleteType" id="">
+                    <option value="none" select>Choose Building Type</option>
+                    <option value="AboveDelete">Above ground space</option>
+                    <option value="BasementDelete">Basement space</option>
+                    <option value="Semi-basementDelete">Semi-basement space</option>
+                </select>
+                <hr class="SearchLine">
+
+                <div class="DeleteBController">
+                    <button class="DeleteDelete">Delete</button>
+                    <button class="CanselDelete">Cansel</button>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////////////////////////////  -->
+        <div class="BuildEditFon">
+            <div class="BuildAddMenu">
+                <div class="BAdress">
+                    <h1 class="BuildAddMenuText">Build Adress</h1>
+
+                    <input class="EBuildAdressInput" type="text">
+                </div>
+
+                <div class="BType">
+                    <h1 class="BuildAddMenuText">Build type</h1>
+
+                    <select class="EBuildTypeList" name="SearchType" id="">
+                    <option value="none" select>ChooseType...</option>
+                    <option value="Build Above ground space">Above ground space</option>
+                    <option value="Build Basement space">Basement space</option>
+                    <option value="Build Semi-basement space">Semi-basement space</option>
+                </select>
+                </div>
+
+                <div class="BInfo">
+                    <h1 class="BuildAddMenuText">Build Information </h1>
+                    <input class="EBInfoInput" type="text">
+
+                </div>
+
+                <div class="OwnInfo">
+                    <h1 class="BuildAddMenuText">Owner Information</h1>
+                    <input class="EOnwInfoInput" type="text">
+                </div>
+
+                <div class="BDate">
+                    <h1 class="BuildAddMenuText">Rent Data</h1>
+                    <input class="BEDateInput" type="date">
+
+                </div>
+
+                <div class="BRentEndData">
+                    <h1 class="BuildAddMenuText">Rent End Data</h1>
+                    <input class="ERentEndDataInput" type="date">
+
+                </div>
+
+                <div class="BRule">
+                    <h1 class="BuildAddMenuText">Rule</h1>
+                    <input class="ERuleInput" type="text">
+
+                </div>
+
+                <div class="BCoust">
+                    <h1 class="BuildAddMenuText">Coust</h1>
+                    <input class="ECoustInput" type="number">
+
+                </div>
+
+                <div class="BEButton">
+                    <button class="ApplyEB">Apply</button>
+                    <button class="CanselEB">Cansel</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

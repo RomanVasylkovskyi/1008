@@ -1,0 +1,607 @@
+body {
+    margin: 0 0;
+    padding: 0;
+    background-color: #979a93;
+}
+
+.TopMenu {
+    height: 50px;
+    width: 100%;
+    background-color: #6f1b33;
+}
+
+.WorkSpace {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    background-color: #979a93;
+}
+
+.InfoSpace {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #979a93;
+}
+
+
+/*///////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////*/
+
+.BDPlate {
+    height: 1175px;
+    width: 900px;
+    margin-top: 150px;
+    border-radius: 15px;
+    background-color: #c8c8c8;
+}
+
+.BDPinfoline {
+    height: 75px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -20px;
+    text-shadow: 1px 1px #000;
+    background-color: #d9d9d9;
+}
+
+.BDPinfolineName {
+    font-size: 32px;
+    color: rgb(57, 57, 57);
+    text-align: center;
+    background-color: #e7e7e7;
+    text-shadow: 1px 1px #000;
+}
+
+.SCoust {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.SummerCoust {
+    font-size: 36px;
+    color: #ff0000;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+}
+
+.SummerCoust2 {
+    font-size: 30px;
+    color: #ff0000;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+}
+
+
+/*///////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////*/
+
+.SearchMenu {
+    height: 100%;
+    width: 30%;
+    margin-right: 0px;
+    background-color: #bbb9ac;
+}
+
+.ShearchImg {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    background-color: #621027;
+    background-image: url(../img/RentIco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.SearchName {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 1.5px 1px rgb(0, 0, 0);
+}
+
+.SearchLine {
+    margin-top: 30px;
+}
+
+.SearchText {
+    width: 75%;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.SearchFilter {
+    margin-top: 10px;
+    width: 100%;
+    height: 325px;
+}
+
+.SearchList {
+    width: 100%;
+    height: 50px;
+    border-color: #979a93;
+    font-size: 35px;
+    text-align: center;
+}
+
+.FilterText {
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.FilterText2 {
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.CheckBox {
+    width: 50px;
+    height: 50px;
+}
+
+.CheckBox2 {
+    width: 50px;
+    height: 50px;
+}
+
+.CheckBox3 {
+    width: 50px;
+    height: 50px;
+}
+
+.CheckBoxText {
+    display: inline;
+    font-size: 40px;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+}
+
+
+/*/////////////////////////////////////*/
+
+.ButtonDIV {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.ButtonAdd {
+    width: 150px;
+    height: 75px;
+    background-color: #15912a;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 5px solid #045017;
+}
+
+.ButtonDel {
+    width: 150px;
+    height: 75px;
+    margin-left: 15px;
+    background-color: #a10909;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 5px solid #460a0a;
+}
+
+
+/*///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////*/
+
+.PasswordFon {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.PasswordMenu {
+    width: 300px;
+    height: 300px;
+    background-color: #979a93;
+    border-radius: 20px;
+    border: 5px solid #6c6c40;
+}
+
+.PasswordMenuText {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+.InputPass {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+}
+
+.PassText {
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.InputButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.PassBIN {
+    height: 50px;
+    width: 40%;
+    margin: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 2px #000;
+    background-color: #09702b;
+    border: 5px solid #6c6c40;
+}
+
+.PassBClose {
+    height: 50px;
+    width: 40%;
+    margin: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 2px #000;
+    background-color: #671111;
+    border: 5px solid #6c6c40;
+}
+
+
+/*///////////////////////////////////////////////////////*/
+
+.BuildAddFon {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.BuildAddMenu {
+    width: 400px;
+    height: 700px;
+    background-color: #979a93;
+    border-radius: 20px;
+    border: 5px solid #6c6c40;
+}
+
+.BuildAddMenuText {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1.5px 2px #000;
+}
+
+
+/*///////////////////////////////////////////////*/
+
+.BuildAddAdressInput {
+    width: 80%;
+    height: 20px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.BuildAddTypeList {
+    width: 81.5%;
+    height: 30px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.BInfoInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.OnwInfoInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.BDateInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.RentEndDataInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.RuleInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.CoustInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+
+/*/////////////////////*/
+
+.BAddButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.ApplyAddB {
+    height: 45px;
+    width: 40%;
+    margin: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1.5px 2px #000;
+    background-color: #15912a;
+    border-radius: 20px;
+    border: 5px solid #045017;
+}
+
+.CanselAddB {
+    height: 45px;
+    width: 40%;
+    margin: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1.5px 2px #000;
+    background-color: #a10909;
+    border-radius: 20px;
+    border: 5px solid #460a0a;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////*/
+
+.DeleteFon {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.DeleteMenu {
+    width: 400px;
+    height: 300px;
+    background-color: #979a93;
+    border-radius: 20px;
+    border: 5px solid #6c6c40;
+}
+
+.DeleteName {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 3px #000;
+}
+
+.DeleteTypeList {
+    width: 100%;
+    height: 50px;
+    border-color: #979a93;
+    font-size: 35px;
+    text-align: center;
+}
+
+.DeleteBController {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.DeleteDelete {
+    height: 65px;
+    width: 40%;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1.5px 2px #000;
+    background-color: #15912a;
+    border-radius: 20px;
+    border: 5px solid #6c6c40;
+}
+
+.CanselDelete {
+    height: 65px;
+    width: 40%;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1.5px 2px #000;
+    background-color: #a10909;
+    border-radius: 20px;
+    border: 5px solid #6c6c40;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////*/
+
+.BuildEditFon {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.BuildAddMenu {
+    width: 400px;
+    height: 700px;
+    background-color: #979a93;
+    border-radius: 20px;
+    border: 5px solid #6c6c40;
+}
+
+.BuildAddMenuText {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1.5px 2px #000;
+}
+
+
+/*///////////////////////////////////////////////*/
+
+.EBuildAdressInput {
+    width: 80%;
+    height: 20px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.EBuildTypeList {
+    width: 81.5%;
+    height: 30px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.EBInfoInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.EOnwInfoInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.BEDateInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.ERentEndDataInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.ERuleInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.ECoustInput {
+    width: 80%;
+    height: 25px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+
+/*/////////////////////*/
+
+.BEButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.ApplyEB {
+    height: 45px;
+    width: 40%;
+    margin: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1.5px 2px #000;
+    background-color: #15912a;
+    border-radius: 20px;
+    border: 5px solid #045017;
+}
+
+.CanselEB {
+    height: 45px;
+    width: 40%;
+    margin: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1.5px 2px #000;
+    background-color: #a10909;
+    border-radius: 20px;
+    border: 5px solid #460a0a;
+}
